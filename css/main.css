@@ -1,0 +1,201 @@
+html {
+  font-family: nassim-latin, sans-serif;
+}
+
+h1 {
+  font-family: avory-i-latin, sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-family: skolar-sans-latin, sans-serif;
+  color: #B75EA5;
+}
+
+h3 {
+  font-family: avory-i-latin, sans-serif;
+  color: #924299;
+}
+
+h4 {
+  font-family: skolar-sans-latin, sans-serif;
+  color: #981A30;
+  font-weight: regular;
+}
+
+.buynow {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.buynow,
+.footer {
+  background-color: #924299;
+  text-align: center;
+  padding: .5rem auto .25rem;
+  transition: background-color .3s ease;
+  padding-top: .3rem;
+}
+
+.buynow:hover,
+.footer:hover {
+  background-color: #B75EA5;
+}
+
+.buynow a,
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  border-bottom: 10px solid #924299;
+  background-position: top, center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  min-height: 45vh;
+}
+
+.byline {
+  text-shadow: 3px 3px 5px #000;
+}
+
+.nav-colour {
+  background-color: #B75EA5;
+}
+
+li::before {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color .3s ease;
+}
+
+nav ul li {
+  list-style-type: none;
+  /* background-color: #B75EA5; */
+  transition: background-color .3s ease;
+}
+
+nav li:hover a {
+  color: #000;
+}
+
+hr {
+  border: dotted 1px #924299;
+}
+
+.main-gutter {
+  padding-left: .65rem;
+  padding-right: .65rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .main-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .main-gutter-big {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+
+  .main-gutter-left {
+    padding-right: .65rem;
+  }
+
+  .recipe-gutter-left {
+    padding-right: 2.6rem;
+  }
+
+  .main-gutter-right {
+    padding-left: .65rem;
+  }
+
+  .recipe-gutter-right {
+    padding-left: 2.6rem;
+  }
+
+  .columns {
+    columns: 100px 2;
+  }
+
+}
+
+h5 {
+  font-family: skolar-sans-latin, sans-serif;
+  color: #981A30;
+}
+
+h6 {
+  font-family: avory-i-latin, sans-serif;
+  color: #924299;
+}
+
+.contents a,
+.popular-card {
+  text-decoration: none;
+  color: #000;
+  transition: color .3s ease;
+  font-family: skolar-sans-latin, sans-serif;
+}
+
+.contents ul li {
+  list-style-type: none;
+  transition: background-color .3s ease;
+}
+
+.contents a:hover,
+.popular-card:hover {
+  color: #924299;
+}
+
+.popular .unit {
+  text-align: center;
+}
+
+.popular-card {
+  text-align: left;
+}
+
+.popular-card img {
+  max-width: 250px;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .columns {
+    columns: 100px 3;
+  }
+
+}
+
+/* Recipe specific */
+
+.recipe-head {
+  font-family: skolar-sans-latin, sans-serif;
+}
+
+.hang-punc {
+  color: #981A30;
+  font-weight: bold;
+  margin-left: -2em;
+  font-size: 1.2rem;
+  line-height: 1.875rem;
+}
