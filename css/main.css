@@ -23,6 +23,13 @@ h4 {
   font-weight: regular;
 }
 
+h5 {
+  font-family: skolar-sans-latin, sans-serif;
+  color: #000;
+  font-variant-caps: small-caps;
+  font-weight: lighter;
+}
+
 .buynow {
   position: fixed;
   top: 0;
@@ -96,12 +103,19 @@ nav li:hover a {
 }
 
 hr {
-  border: dotted 1px #924299;
+  border: solid 1px #924299;
 }
 
 .main-gutter {
   padding-left: .65rem;
   padding-right: .65rem;
+}
+
+.hang-punc {
+  float: left;
+  margin-left: -.5em;
+  text-align: right;
+  width: 1.3em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -136,11 +150,10 @@ hr {
     columns: 100px 2;
   }
 
-}
+  .hang-punc {
+    margin-left: -1.4em;
+  }
 
-h5 {
-  font-family: skolar-sans-latin, sans-serif;
-  color: #981A30;
 }
 
 h6 {
