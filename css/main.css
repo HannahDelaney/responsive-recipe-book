@@ -25,6 +25,12 @@ h4 {
 
 h5 {
   font-family: skolar-sans-latin, sans-serif;
+  color: #B75EA5;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: skolar-sans-latin, sans-serif;
   color: #000;
   font-variant-caps: small-caps;
   font-weight: lighter;
@@ -154,11 +160,6 @@ hr {
     margin-left: -1.4em;
   }
 
-}
-
-h6 {
-  font-family: avory-i-latin, sans-serif;
-  color: #924299;
 }
 
 .contents a,
