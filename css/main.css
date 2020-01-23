@@ -27,13 +27,20 @@ h5 {
   font-family: skolar-sans-latin, sans-serif;
   color: #B75EA5;
   font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-h6 {
+.footnote {
   font-family: skolar-sans-latin, sans-serif;
   color: #000;
   font-variant-caps: small-caps;
   font-weight: lighter;
+}
+
+h6 {
+  font-family: avory-i-latin, sans-serif;
+  color: #924299;
 }
 
 .buynow {
