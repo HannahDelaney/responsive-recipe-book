@@ -10,6 +10,7 @@ h1 {
 h2 {
   font-family: skolar-sans-latin, sans-serif;
   color: #B75EA5;
+  text-shadow: 3px 3px 5px #B75EA5;
 }
 
 h3 {
@@ -41,6 +42,8 @@ h5 {
 h6 {
   font-family: avory-i-latin, sans-serif;
   color: #924299;
+  font-size: 1.728rem;
+  line-height: 2.45rem;
 }
 
 .buynow {
@@ -99,7 +102,8 @@ nav ul {
   align-items: center;
 }
 
-nav li a {
+nav li a,
+nav li button {
   text-decoration: none;
   color: #fff;
   transition: color .3s ease;
@@ -107,12 +111,51 @@ nav li a {
 
 nav ul li {
   list-style-type: none;
-  /* background-color: #B75EA5; */
   transition: background-color .3s ease;
 }
 
-nav li:hover a {
+nav li:hover .nav-list {
   color: #000;
+}
+
+nav li:hover button {
+  /* color: #000;s */
+  background-color: inherit;
+}
+
+.dropbtn {
+  padding: 0;
+  background-color: inherit;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 230px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  transition: background-color .3s ease;
+}
+
+.dropdown-content a {
+  color: #fff;
+  background-color: #924299;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 hr {
@@ -187,6 +230,15 @@ hr {
   color: #924299;
 }
 
+.overlay {
+  filter: grayscale(50%);
+  transition: all .3s linear;
+}
+
+.popular-card:hover .overlay {
+  filter: grayscale(0);
+}
+
 .popular .unit {
   text-align: center;
 }
@@ -219,4 +271,17 @@ hr {
   margin-left: -2em;
   font-size: 1.2rem;
   line-height: 1.875rem;
+}
+
+.spacing {
+  display: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .spacing {
+    display: inline-block;
+    visibility: hidden;
+  }
+
 }
