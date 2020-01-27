@@ -135,7 +135,7 @@ nav li:hover button {
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 230px;
+  min-width: 200px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
   transition: background-color .3s ease;
 }
@@ -199,6 +199,10 @@ hr {
 
   .hang-punc {
     margin-left: -1.4em;
+  }
+
+  .dropdown-content {
+    min-width: 250px;
   }
 
 }
