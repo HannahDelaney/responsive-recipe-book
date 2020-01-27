@@ -9,8 +9,8 @@ h1 {
 
 h2 {
   font-family: skolar-sans-latin, sans-serif;
-  color: #B75EA5;
-  text-shadow: 3px 3px 5px #B75EA5;
+  color: #b75ea5;
+  text-shadow: 3px 3px 5px #b75ea5;
 }
 
 h3 {
@@ -20,13 +20,13 @@ h3 {
 
 h4 {
   font-family: skolar-sans-latin, sans-serif;
-  color: #981A30;
-  font-weight: regular;
+  color: #981a30;
+  font-weight: bold;
 }
 
 h5 {
   font-family: skolar-sans-latin, sans-serif;
-  color: #B75EA5;
+  color: #b75ea5;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -57,14 +57,14 @@ h6 {
 .footer {
   background-color: #924299;
   text-align: center;
-  padding: .5rem auto .25rem;
+  padding-top: .5rem;
+  padding-bottom: .25rem;
   transition: background-color .3s ease;
-  padding-top: .3rem;
 }
 
 .buynow:hover,
 .footer:hover {
-  background-color: #B75EA5;
+  background-color: #b75ea5;
 }
 
 .buynow a,
@@ -89,7 +89,7 @@ h6 {
 }
 
 .nav-colour {
-  background-color: #B75EA5;
+  background-color: #b75ea5;
 }
 
 li::before {
@@ -138,7 +138,7 @@ nav li:hover button {
   display: none;
   position: absolute;
   min-width: 230px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0px rgba(0, 0, 0, .2);
   transition: background-color .3s ease;
 }
 
@@ -165,13 +165,6 @@ hr {
 .main-gutter {
   padding-left: .65rem;
   padding-right: .65rem;
-}
-
-.hang-punc {
-  float: left;
-  margin-left: -.5em;
-  text-align: right;
-  width: 1.3em;
 }
 
 @media only screen and (min-width: 38em) {
@@ -266,11 +259,14 @@ hr {
 }
 
 .hang-punc {
-  color: #981A30;
+  color: #981a30;
   font-weight: bold;
   margin-left: -2em;
   font-size: 1.2rem;
   line-height: 1.875rem;
+  float: left;
+  text-align: right;
+  width: 1.3em;
 }
 
 .spacing {
