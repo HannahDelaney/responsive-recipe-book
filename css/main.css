@@ -66,10 +66,14 @@ h6 {
   background-color: #b75ea5;
 }
 
-.buynow a,
+.buynow,
 .footer a {
   text-decoration: none;
   color: #fff;
+}
+
+.footer p {
+  margin: 0;
 }
 
 .banner {
